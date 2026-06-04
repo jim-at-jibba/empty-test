@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "node test-counter.js"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
