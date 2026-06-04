@@ -1,0 +1,8 @@
+{
+  "name": "buggy-demo-app",
+  "version": "1.0.0",
+  "description": "Buggy demo app with deliberate bugs",
+  "scripts": {
+    "test": "node counter.test.js"
+  }
+}
