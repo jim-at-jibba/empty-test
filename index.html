@@ -47,8 +47,25 @@
       <button id="greet">Greet</button>
       <p id="greeting"></p>
     </section>
+
+    <!-- Accounts -->
+    <section class="card">
+      <h2>Accounts</h2>
+      <input id="su-user" type="text" placeholder="username" />
+      <input id="su-pass" type="text" placeholder="password" />
+      <input id="su-email" type="text" placeholder="email" />
+      <button onclick="doSignup()">Sign up</button>
+      <hr />
+      <input id="li-user" type="text" placeholder="username" />
+      <input id="li-pass" type="text" placeholder="password" />
+      <button onclick="doLogin()">Log in</button>
+      <p id="account-status"></p>
+      <div id="profile"></div>
+      <p>Quota left: <span id="quota">1000</span></p>
+    </section>
   </main>
 
   <script src="app.js"></script>
+  <script src="accounts.js"></script>
 </body>
 </html>
