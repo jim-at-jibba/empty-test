@@ -11,8 +11,7 @@ document.getElementById("increment").addEventListener("click", () => {
 });
 
 document.getElementById("decrement").addEventListener("click", () => {
-  // BUG 1: decrement increases the count instead of decreasing it
-  count += 1;
+  count -= 1;
   countEl.textContent = count;
 });
 

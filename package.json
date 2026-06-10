@@ -1,0 +1,28 @@
+{
+  "name": "job-container-roh-15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-at-jibba/empty-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jim-at-jibba/empty-test/issues"
+  },
+  "homepage": "https://github.com/jim-at-jibba/empty-test#readme",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1"
+  }
+}
